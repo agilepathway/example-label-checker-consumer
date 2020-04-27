@@ -15,7 +15,7 @@ jobs:
     name: Check semantic version label
     runs-on: ubuntu-latest
     steps:
-      - uses: agilepathway/label-checker@master
+      - uses: agilepathway/label-checker@use-go
         with:
           labels: >
             [
