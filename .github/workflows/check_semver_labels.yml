@@ -15,7 +15,7 @@ jobs:
     name: Check semantic version label
     runs-on: ubuntu-latest
     steps:
-      - uses: skeeping/label-checker@patch-1
+      - uses: agilepathway/label-checker@master
         with:
           one_of: major,minor,patch
           repo_token: ${{ secrets.GITHUB_TOKEN }}
